@@ -1,0 +1,99 @@
+* {
+  box-sizing:border-box;
+  }
+
+body { background-color: #FFDAB9;
+
+  }
+
+h1 { text-align: center;
+     font-family: Impact;
+     font-size: 1.75em;
+     text-decoration: underline;
+  }
+
+.span1 { background-color: #FF69B4; 
+    border: 1px ridge black;
+    padding: 5px;
+    position: relative;
+    top: -14px;
+    right: -20px;
+    font-size: 1.25em;
+    font-family: Lucida Sans Unicode;
+
+  }
+  .span2 { background-color: #FFA500;
+    border: 1px ridge black;
+    padding: 5px;
+    position: relative;
+    top: -14px;
+    right: -20px;
+    font-size: 1.25em;
+    font-family: Lucida Sans Unicode;
+
+  }
+  .span3 { background-color: #FFFF00;
+    border: 1px ridge black;
+    padding: 5px;
+    position: relative;
+    top: -14px;
+    right: -20px;
+    font-size: 1.25em;
+    font-family: Lucida Sans Unicode;
+  }
+.left {
+  background-color: #C0C0C0;
+  padding:20px;
+  float:left;
+  width:32%;
+  text-align: right;
+  margin: 2px;
+  border: 1px ridge black;
+  font-size: 1em; 
+  font-family: Lucida Sans Unicode;
+}
+
+.main {
+  background-color: #C0C0C0;
+  padding:20px;
+  float:left;
+  width:32%;
+  text-align: right;
+  margin: 2px;
+  border: 1px ridge black;
+  font-size: 1em;
+  font-family: Lucida Sans Unicode;
+}
+
+.right {
+  background-color: #C0C0C0;
+  padding:20px;
+  float:left;
+  width:32%; 
+  text-align: right;
+  margin: 2px;
+  border: 1px ridge black;
+  font-size: 1em;
+  font-family: Lucida Sans Unicode;
+}
+.p1 { text-align: left;
+}
+.p2 { text-align: left;
+}
+.p3 { text-align: left;
+}
+
+
+@media screen and (max-width:767px) {
+  .left, .main, .right {
+    width:100%; 
+  }
+}
+@media screen and (min-width:992px) {
+.left, .main, .right { width:32.8% }
+
+}
+@media (min-width:768px) and (max-width:991px) {
+.left, .main { width: 49.3% }
+.right { width:99.2% }
+}
